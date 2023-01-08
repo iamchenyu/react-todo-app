@@ -1,11 +1,11 @@
 import { render } from "@testing-library/react";
-import App from "./App";
+import EditTodoForm from "./EditTodoForm";
 
 it("renders without crashing", () => {
-  render(<App />);
+  render(<EditTodoForm />);
 });
 
 it("matches the snapshot", () => {
-  const { asFragment } = render(<App />);
+  const { asFragment } = render(<EditTodoForm />);
   expect(asFragment()).toMatchSnapshot();
 });

@@ -1,0 +1,16 @@
+.Todo {
+  margin: 20px auto 10px auto;
+}
+
+.Todo button {
+  margin-left: 20px;
+  height: 30px;
+  width: auto;
+  border: none;
+  font-family: "Prompt";
+  letter-spacing: 1px;
+}
+
+.Todo input {
+  margin-right: 10px;
+}

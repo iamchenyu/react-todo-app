@@ -1,0 +1,17 @@
+.NewTodoForm {
+  margin: 10px auto 10px auto;
+}
+
+.NewTodoForm input {
+  height: 25px;
+  width: 40%;
+}
+
+.NewTodoForm button {
+  margin-left: 20px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  font-family: "Prompt";
+  letter-spacing: 1px;
+}
